@@ -75,10 +75,10 @@ TMP_DOWNLOAD_DIRECTORY = environ.get("TMP_DOWNLOAD_DIRECTORY", "./DOWNLOADS/")
 COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "/")
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Elsa")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://fznkd:fznkd@cluster0.wifumu3.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "fazinbot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
-MONGO_URL = os.environ.get('MONGO_URL', "")
+MONGO_URL = os.environ.get('MONGO_URL', "mongodb+srv://fznkd:fznkd@cluster0.wifumu3.mongodb.net/?retryWrites=true&w=majority")
 
 #Downloader
 DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
@@ -86,7 +86,7 @@ DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
 #url links
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'dalink.in')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'd4a9a9164fd0b831e25d8f17a6d36bfbee8deb4e')
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 
 #Auto approve 
 #In private group or channel must enable request admin approval 
