@@ -84,8 +84,8 @@ MONGO_URL = os.environ.get('MONGO_URL', "mongodb+srv://fazni:Fazni614@@cluster0.
 DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
 
 #url links
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'dalink.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'd4a9a9164fd0b831e25d8f17a6d36bfbee8deb4e')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'tnshort.net')
+SHORTLINK_API = environ.get('SHORTLINK_API', '3b54086b1d604260b2843af43a2e0892b0ebe9f9')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 
 #Auto approve 
